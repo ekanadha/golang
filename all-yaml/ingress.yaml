@@ -5,7 +5,7 @@ metadata:
  namespace: golang
 spec:
  rules:
- - host: clr-static.ajendra.xyz
+ - host: golang.ekanadh.xyz
    http:
      paths:
      - path:
