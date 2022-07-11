@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: static
-        image: 062696085241.dkr.ecr.ap-south-1.amazonaws.com/ekandha:$BUILD_NUMBER
+        image: 062696085241.dkr.ecr.ap-south-1.amazonaws.com/ekandha:14
         ports:
         - containerPort: 8081
