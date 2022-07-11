@@ -2,13 +2,13 @@ apiVersion: v1
 kind: Service
 metadata:
   name: go-svc
-  namespace: static
+  namespace: golang
 spec:
   selector:
-    app: golang
+    app: golang-app
   ports:
   - port: 80
-    targetPort: 80
+    targetPort: 8081
 
     
 
