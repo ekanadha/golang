@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: static
-        image: 887870046594.dkr.ecr.eu-west-2.amazonaws.com/ekandha:number
+        image: 062696085241.dkr.ecr.ap-south-1.amazonaws.com/ekandha:7
         ports:
         - containerPort: 80
