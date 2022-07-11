@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+ name: go-ingress
+ namespace: golang
+spec:
+ rules:
+ - host: clr-static.ajendra.xyz
+   http:
+     paths:
+     - path:
+       backend:
+         serviceName: go-svc
+         servicePort: 80

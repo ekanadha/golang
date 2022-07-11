@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-apps
+  namespace: golang
+spec:
+  selector:
+    matchLabels:
+      app: golang-app
+  replicas: 1 # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: golang-app
+    spec:
+      containers:
+      - name: static
+        image: 887870046594.dkr.ecr.eu-west-2.amazonaws.com/ekandha:number
+        ports:
+        - containerPort: 80
