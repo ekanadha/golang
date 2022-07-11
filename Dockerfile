@@ -13,3 +13,6 @@ RUN go build -o /main.go
 #EXPOSE 8080
 
 CMD [ "/main.go" ]
+
+
+
