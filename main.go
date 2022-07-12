@@ -7,7 +7,7 @@ import (
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-        fmt.Fprintf(w, " jai krishna !!!")
+        fmt.Fprintf(w, " Welcome to the DevOps World !!!")
 
 }
 
